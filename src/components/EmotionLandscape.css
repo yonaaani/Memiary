@@ -1,0 +1,111 @@
+.vecteezy-tablet-with-free-spac-icon {
+  width: 484px;
+  position: relative;
+  max-height: 100%;
+  object-fit: contain;
+  max-width: 100%;
+}
+.emotional-tracker {
+  position: relative;
+}
+.emotion-tracker-label {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.mapping-the-emotional {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  line-height: 102%;
+  font-family: var(--font-gautami);
+  text-align: right;
+}
+.emotion-tracker-label-parent,
+.emotional-landscape {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.emotion-tracker-label-parent {
+  align-self: stretch;
+  gap: var(--gap-5xl);
+}
+.emotional-landscape {
+  flex: 1;
+  padding: var(--padding-137xl) 0 0;
+  box-sizing: border-box;
+  min-width: 328px;
+  max-width: 100%;
+}
+.frame-child5 {
+  height: 184.5px;
+  width: 227.2px;
+  position: absolute;
+  margin: 0 !important;
+  right: -95.6px;
+  bottom: -112.7px;
+  z-index: 1;
+}
+.emotion-landscape,
+.vecteezy-tablet-with-free-spac-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.vecteezy-tablet-with-free-spac-parent {
+  width: 1055px;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-47xl);
+}
+.emotion-landscape {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-18xl) var(--padding-30xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-bropella);
+}
+@media screen and (max-width: 1225px) {
+  .emotion-landscape {
+    padding-left: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .vecteezy-tablet-with-free-spac-icon {
+    flex: 1;
+  }
+  .vecteezy-tablet-with-free-spac-parent {
+    flex-wrap: wrap;
+    gap: var(--gap-14xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .emotional-tracker {
+    font-size: var(--font-size-19xl);
+  }
+  .mapping-the-emotional {
+    font-size: var(--font-size-7xl);
+    line-height: 26px;
+  }
+  .vecteezy-tablet-with-free-spac-parent {
+    gap: var(--gap-base);
+  }
+}
+@media screen and (max-width: 450px) {
+  .emotional-tracker {
+    font-size: var(--font-size-10xl);
+  }
+  .mapping-the-emotional {
+    font-size: var(--font-size-lgi);
+    line-height: 20px;
+  }
+}

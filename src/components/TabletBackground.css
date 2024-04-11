@@ -1,0 +1,223 @@
+.various-helping-styles-child {
+  width: 1063px;
+  height: 552px;
+  position: relative;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-gray);
+  display: none;
+  max-width: 100%;
+}
+.a-helping-hand {
+  width: 352px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.our-specialists-will,
+.you {
+  margin: 0;
+}
+.our-specialists-will-container {
+  width: 454px;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  line-height: 102%;
+  font-family: var(--font-gautami);
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.frame-child2,
+.various-helping-styles {
+  position: absolute;
+  top: 0;
+  border-radius: var(--br-6xl);
+}
+.various-helping-styles {
+  left: 20px;
+  background-color: var(--color-gray);
+  width: 1063px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-130xl) var(--padding-xl) var(--padding-184xl)
+    var(--padding-79xl);
+  box-sizing: border-box;
+  gap: var(--gap-7xs);
+  max-width: 100%;
+}
+.frame-child2 {
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  max-height: 100%;
+  width: 506px;
+  z-index: 1;
+}
+.frame-child3,
+.frame-child4 {
+  position: absolute;
+  top: 53px;
+  left: 494px;
+  border-radius: var(--br-11xl);
+  width: 97.5px;
+  height: 37.5px;
+  z-index: 2;
+}
+.frame-child4 {
+  top: 177px;
+  width: 97px;
+  height: 15px;
+}
+.vector-group {
+  position: absolute;
+  top: 235px;
+  left: 590px;
+  width: 591px;
+  height: 218px;
+}
+.various-helping-styles-parent {
+  height: 552px;
+  width: 1181px;
+  position: relative;
+  max-width: 100%;
+}
+.tablet-background-inner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.tablet-device-image-child {
+  margin-left: -361.9px;
+  height: 289.2px;
+  width: 131.1px;
+  position: relative;
+  border-radius: var(--br-581xl);
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.various-styles {
+  position: relative;
+}
+.various-styles-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.myriad-styles-to {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  line-height: 102%;
+  font-family: var(--font-gautami);
+  text-align: center;
+}
+.frame-div {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.tablet-background,
+.tablet-device-image,
+.tablet-device-image-inner {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.tablet-device-image-inner {
+  width: 563px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-41xl);
+  min-height: 194px;
+  flex-shrink: 0;
+}
+.tablet-background,
+.tablet-device-image {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0 var(--padding-340xl) 0 var(--padding-339xl);
+  gap: var(--gap-211xl-8);
+  color: var(--color-black);
+}
+.tablet-background {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-mini-3);
+  gap: var(--gap-16xl-5);
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+  font-family: var(--font-bropella);
+}
+@media screen and (max-width: 1225px) {
+  .tablet-device-image {
+    flex-wrap: wrap;
+    gap: var(--gap-96xl);
+    padding-left: var(--padding-160xl);
+    padding-right: var(--padding-160xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .a-helping-hand {
+    font-size: var(--font-size-19xl);
+  }
+  .our-specialists-will-container {
+    font-size: var(--font-size-7xl);
+    line-height: 26px;
+  }
+  .various-styles {
+    font-size: var(--font-size-19xl);
+  }
+  .myriad-styles-to {
+    font-size: var(--font-size-7xl);
+    line-height: 26px;
+  }
+  .tablet-device-image {
+    gap: var(--gap-39xl);
+    padding-left: var(--padding-70xl);
+    padding-right: var(--padding-70xl);
+    box-sizing: border-box;
+  }
+  .tablet-background {
+    gap: var(--gap-lg);
+  }
+}
+@media screen and (max-width: 450px) {
+  .a-helping-hand {
+    font-size: var(--font-size-10xl);
+  }
+  .our-specialists-will-container {
+    font-size: var(--font-size-lgi);
+    line-height: 20px;
+  }
+  .various-styles {
+    font-size: var(--font-size-10xl);
+  }
+  .myriad-styles-to {
+    font-size: var(--font-size-lgi);
+    line-height: 20px;
+  }
+  .tablet-device-image {
+    gap: var(--gap-10xl);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

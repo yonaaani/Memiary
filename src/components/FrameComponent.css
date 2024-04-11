@@ -1,0 +1,131 @@
+.at-your-fingertips,
+.memoir {
+  margin: 0;
+}
+.memoir-at-your-container {
+  width: 482px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.whether-youre-thinking {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-9xl);
+  line-height: 102%;
+  font-family: var(--font-gautami);
+  z-index: 1;
+}
+.rectangle-div {
+  height: 58.6px;
+  width: 215px;
+  position: relative;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-gray);
+  display: none;
+}
+.register {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 102%;
+  font-family: var(--font-vrinda);
+  color: var(--color-lavenderblush);
+  text-align: left;
+  display: inline-block;
+  min-width: 82px;
+  z-index: 1;
+}
+.laptop-clipart,
+.rectangle-group,
+.register-call-to-action {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangle-group {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-47xl) var(--padding-lg-1)
+    var(--padding-48xl);
+  background-color: var(--color-gray);
+  border-radius: var(--br-6xl);
+  flex-direction: row;
+  z-index: 1;
+}
+.rectangle-group:hover {
+  background-color: var(--color-dimgray);
+}
+.laptop-clipart,
+.register-call-to-action {
+  flex-direction: column;
+  max-width: 100%;
+}
+.laptop-clipart {
+  align-self: stretch;
+  gap: var(--gap-11xl);
+}
+.register-call-to-action {
+  flex: 1;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  min-width: 343px;
+}
+.vecteezy-laptop-device-clipart-icon {
+  height: 299px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 344px;
+  z-index: 1;
+}
+.frame-section,
+.register-call-to-action-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.register-call-to-action-parent {
+  width: 1061px;
+  flex-wrap: wrap;
+  gap: var(--gap-10xs);
+}
+.frame-section {
+  align-self: stretch;
+  padding: 0 var(--padding-2xl) var(--padding-93xl-4) var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-bropella);
+}
+@media screen and (max-width: 750px) {
+  .memoir-at-your-container {
+    font-size: var(--font-size-19xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .memoir-at-your-container {
+    font-size: var(--font-size-10xl);
+  }
+  .whether-youre-thinking {
+    font-size: var(--font-size-3xl);
+    line-height: 23px;
+  }
+  .register {
+    font-size: var(--font-size-lgi);
+    line-height: 20px;
+  }
+  .register-call-to-action,
+  .vecteezy-laptop-device-clipart-icon {
+    min-width: 100%;
+  }
+  .frame-section {
+    padding-bottom: var(--padding-54xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,128 @@
+.mind-full {
+  position: relative;
+  line-height: 29px;
+  display: inline-block;
+  min-width: 125px;
+}
+.mind-full-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-296xl) 0 0;
+}
+.frame-inner,
+.frame-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 371.6px;
+  height: 334px;
+}
+.frame-inner {
+  top: 230px;
+  left: 285px;
+  width: 307px;
+  height: 248.6px;
+  z-index: 1;
+}
+.frame-child1,
+.vector-icon {
+  position: absolute;
+  top: 368.5px;
+  left: 578.4px;
+  width: 303.6px;
+  height: 239.1px;
+  z-index: 2;
+}
+.frame-child1 {
+  top: 250.4px;
+  left: 873.2px;
+  border-radius: var(--br-264xl);
+  width: 347.3px;
+  height: 170px;
+  z-index: 3;
+}
+.vector-parent {
+  height: 607.6px;
+  width: 1220.5px;
+  position: absolute;
+  margin: 0 !important;
+  right: -331.5px;
+  bottom: -142.6px;
+}
+.express,
+.your-thoughts-digitally {
+  margin: 0;
+}
+.express-your-thoughts-container {
+  margin: 0;
+  height: 412px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 4;
+}
+.outside-box {
+  flex: 1;
+  justify-content: flex-start;
+  position: relative;
+  min-width: 400px;
+  text-align: center;
+  font-size: var(--font-size-69xl);
+  color: var(--color-gray);
+  font-family: var(--font-bropella);
+}
+.frame-container,
+.outside-box,
+.vecteezy-image {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-container {
+  width: 783px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: var(--gap-23xl);
+}
+.vecteezy-image {
+  width: 1113px;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-277xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--color-black);
+  font-family: var(--font-give-you-glory);
+}
+@media screen and (max-width: 750px) {
+  .express-your-thoughts-container {
+    font-size: var(--font-size-25xl);
+  }
+  .outside-box {
+    min-width: 100%;
+  }
+  .vecteezy-image {
+    padding-bottom: var(--padding-173xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .mind-full {
+    font-size: var(--font-size-3xl);
+    line-height: 23px;
+  }
+  .express-your-thoughts-container {
+    font-size: var(--font-size-7xl);
+  }
+  .frame-container {
+    gap: var(--gap-2xl);
+  }
+}

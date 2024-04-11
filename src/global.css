@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Give+You+Glory:wght@400&display=swap");
+@font-face {
+  font-family: "Bropella";
+  src: url("/public/Bropella.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Gautami";
+  src: url("/public/gautami.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Vrinda";
+  src: url("/public/vrinda_2.ttf");
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-gautami: Gautami;
+  --font-bropella: Bropella;
+  --font-vrinda: Vrinda;
+  --font-give-you-glory: "Give You Glory";
+
+  /* font sizes */
+  --font-size-13xl: 32px;
+  --font-size-lgi: 19px;
+  --font-size-7xl: 26px;
+  --font-size-29xl: 48px;
+  --font-size-10xl: 29px;
+  --font-size-19xl: 38px;
+  --font-size-5xl: 24px;
+  --font-size-9xl: 28px;
+  --font-size-3xl: 22px;
+  --font-size-69xl: 88px;
+  --font-size-25xl: 44px;
+  --font-size-15xl: 34px;
+  --font-size-xl: 20px;
+  --font-size-8xl: 27px;
+  --font-size-39xl: 58px;
+  --font-size-16xl: 35px;
+  --font-size-27xl: 46px;
+
+  /* Colors */
+  --color-gray: #1a1a1c;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-dimgray: #4d4d4f;
+  --color-lavenderblush: #ffeeff;
+
+  /* Gaps */
+  --gap-base: 16px;
+  --gap-47xl: 66px;
+  --gap-14xl: 33px;
+  --gap-5xl: 24px;
+  --gap-16xl-5: 35.5px;
+  --gap-lg: 18px;
+  --gap-211xl-8: 230.8px;
+  --gap-10xl: 29px;
+  --gap-39xl: 58px;
+  --gap-96xl: 115px;
+  --gap-7xs: 6px;
+  --gap-10xs: 3px;
+  --gap-11xl: 30px;
+  --gap-23xl: 42px;
+  --gap-2xl: 21px;
+  --gap-87xl: 106px;
+  --gap-7xl: 26px;
+  --gap-34xl: 53px;
+  --gap-xl: 20px;
+  --gap-mid: 17px;
+
+  /* Paddings */
+  --padding-18xl: 37px;
+  --padding-xl: 20px;
+  --padding-30xl: 49px;
+  --padding-5xl: 24px;
+  --padding-137xl: 156px;
+  --padding-79xl: 98px;
+  --padding-2xl: 21px;
+  --padding-10xl: 29px;
+  --padding-40xl: 59px;
+  --padding-mini-3: 14.3px;
+  --padding-340xl: 359px;
+  --padding-339xl: 358px;
+  --padding-70xl: 89px;
+  --padding-160xl: 179px;
+  --padding-41xl: 60px;
+  --padding-130xl: 149px;
+  --padding-184xl: 203px;
+  --padding-93xl-4: 112.4px;
+  --padding-54xl: 73px;
+  --padding-12xs: 1px;
+  --padding-lg: 18px;
+  --padding-47xl: 66px;
+  --padding-lg-1: 18.1px;
+  --padding-48xl: 67px;
+  --padding-277xl: 296px;
+  --padding-173xl: 192px;
+  --padding-296xl: 315px;
+  --padding-98xl: 117px;
+  --padding-14xl: 33px;
+  --padding-mini: 15px;
+  --padding-29xl: 48px;
+  --padding-sm: 14px;
+  --padding-7xl: 26px;
+  --padding-6xs: 7px;
+
+  /* Border radiuses */
+  --br-6xl: 25px;
+  --br-581xl: 600px;
+  --br-11xl: 30px;
+  --br-264xl: 283px;
+}
