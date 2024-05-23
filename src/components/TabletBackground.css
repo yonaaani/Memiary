@@ -35,9 +35,8 @@
   border-radius: var(--br-6xl);
 }
 .various-helping-styles {
-  left: 20px;
   background-color: var(--color-gray);
-  width: 1063px;
+  width: 1100px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -51,7 +50,7 @@
 .frame-child2 {
   height: 100%;
   bottom: 0;
-  left: 0;
+  left: 20px;
   max-height: 100%;
   width: 506px;
   z-index: 1;
@@ -59,17 +58,17 @@
 .frame-child3,
 .frame-child4 {
   position: absolute;
-  top: 53px;
-  left: 494px;
+  top: 0px;
+  left: 510px;
   border-radius: var(--br-11xl);
-  width: 97.5px;
-  height: 37.5px;
+  width: 160.5px;
+  height: 119.5px;
   z-index: 2;
 }
 .frame-child4 {
-  top: 177px;
-  width: 97px;
-  height: 15px;
+  top: 118px;
+  width: 160.5px;
+  height: 119.5px;
 }
 .vector-group {
   position: absolute;
@@ -80,7 +79,7 @@
 }
 .various-helping-styles-parent {
   height: 552px;
-  width: 1181px;
+  width: 1260px;
   position: relative;
   max-width: 100%;
 }
@@ -93,7 +92,7 @@
   max-width: 100%;
 }
 .tablet-device-image-child {
-  margin-left: -361.9px;
+  margin-left: -470.9px;
   height: 289.2px;
   width: 131.1px;
   position: relative;
@@ -174,6 +173,11 @@
     box-sizing: border-box;
   }
 }
+@media screen and (max-width: 768px) {
+  .tablet-device-image {
+    gap: 330px !important;
+  }
+}
 @media screen and (max-width: 750px) {
   .a-helping-hand {
     font-size: var(--font-size-19xl);
@@ -206,6 +210,7 @@
   .our-specialists-will-container {
     font-size: var(--font-size-lgi);
     line-height: 20px;
+    width: 300px;
   }
   .various-styles {
     font-size: var(--font-size-10xl);
@@ -220,4 +225,50 @@
     padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
+}
+
+/* Для екранів шириною до 768px */
+@media screen and (max-width: 768px) {
+  .various-helping-styles {
+    left: 450px !important;
+}
+.frame-child2 {
+  left: 450px !important;
+}
+.frame-child3, .frame-child4 {
+  left: 750px !important;
+}
+}
+
+/* Для екранів шириною до 1024px */
+@media screen and (max-width: 1024px) {
+  .various-helping-styles {
+      left: 200px;
+  }
+  .frame-child2 {
+    left: 200px;
+  }
+}
+
+/* Для екранів шириною до 425px */
+@media screen and (max-width: 450px) {
+  .various-helping-styles {
+    left: 800px !important;
+  }
+  .frame-child2 {
+    left: 200px;
+    top: 20px;
+  }
+}
+
+
+.your-component {
+  opacity: 0.99; /* Спочатку робимо компонент невидимим */
+  transform: translateY(15%); /* Зсуваємо його вниз на 100% */
+  transition: opacity 1.2s ease, transform 1.2s ease; /* Додаємо плавну анімацію */
+}
+
+.your-component.visible {
+  opacity: 1; /* Зробити компонент видимим */
+  transform: translateY(0); /* Зсувати його до його правильного положення */
 }

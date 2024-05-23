@@ -54,7 +54,7 @@
   z-index: 1;
 }
 .rectangle-group:hover {
-  background-color: var(--color-dimgray);
+  background-color: #ECB159;
 }
 .laptop-clipart,
 .register-call-to-action {
@@ -64,6 +64,7 @@
 .laptop-clipart {
   align-self: stretch;
   gap: var(--gap-11xl);
+  float: right;
 }
 .register-call-to-action {
   flex: 1;
@@ -120,12 +121,85 @@
     font-size: var(--font-size-lgi);
     line-height: 20px;
   }
-  .register-call-to-action,
-  .vecteezy-laptop-device-clipart-icon {
+  .register-call-to-action {
     min-width: 100%;
   }
   .frame-section {
     padding-bottom: var(--padding-54xl);
     box-sizing: border-box;
   }
+  .laptop-clipart {
+    padding-left: 200px;
+  }
+}
+
+/* Для екранів шириною до 450px */
+@media screen and (max-width: 450px) {
+  .register-call-to-action-parent {
+      width: 70% !important; /* Наприклад, ширина відсотків */
+      max-width: none !important; /* Зняти обмеження максимальної ширини */
+  }
+  
+}
+
+/* Для екранів шириною до 768px */
+@media screen and (max-width: 768px) {
+  .register-call-to-action-parent {
+      width: 100%; /* Наприклад, ширина відсотків */
+      max-width: none; /* Зняти обмеження максимальної ширини */
+  }
+  .vecteezy-laptop-device-clipart-icon {
+    height: 199px;
+    top: 75px;
+}
+}
+
+/* Для екранів шириною до 1024px */
+@media screen and (max-width: 1024px) {
+  .register-call-to-action-parent {
+      width: 100%; /* Наприклад, ширина відсотків */
+      max-width: none; /* Зняти обмеження максимальної ширини */
+  }
+}
+
+/* Для екранів шириною до 425px */
+@media screen and (max-width: 450px) {
+  .register-call-to-action-parent {
+      width: 100%; /* Наприклад, ширина відсотків */
+      max-width: 400px; /* Зняти обмеження максимальної ширини */
+  }
+  .vecteezy-laptop-device-clipart-icon {
+    height: 0px !important;
+  }
+    .laptop-clipart, .register-call-to-action {
+      max-width: 100%;
+  }
+}
+
+/* Для екранів шириною до 375px */
+@media screen and (max-width: 375px) {
+  .register-call-to-action-parent {
+      width: 100%; /* Наприклад, ширина відсотків */
+      max-width: none; /* Зняти обмеження максимальної ширини */
+  }
+}
+
+/* Для екранів шириною до 320px */
+@media screen and (max-width: 320px) {
+  .register-call-to-action-parent {
+      width: 100%; /* Наприклад, ширина відсотків */
+      max-width: none; /* Зняти обмеження максимальної ширини */
+  }
+}
+
+
+.your-component {
+  opacity: 0.99; /* Спочатку робимо компонент невидимим */
+  transform: translateY(15%); /* Зсуваємо його вниз на 100% */
+  transition: opacity 1.2s ease, transform 1.2s ease; /* Додаємо плавну анімацію */
+}
+
+.your-component.visible {
+  opacity: 1; /* Зробити компонент видимим */
+  transform: translateY(0); /* Зсувати його до його правильного положення */
 }

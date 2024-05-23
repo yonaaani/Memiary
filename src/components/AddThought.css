@@ -1,0 +1,33 @@
+.thought-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 15;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.thought-container input,
+.thought-container textarea {
+  width: 80%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.thought-container button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.thought-container button:hover {
+  background-color: #0056b3;
+}

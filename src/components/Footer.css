@@ -1,0 +1,707 @@
+.footer-child {
+    width: 1280px;
+    height: 658px;
+    position: relative;
+    border-radius: var(--br-6xl) var(--br-6xl) 0 0;
+    background-color: var(--color-gray);
+    display: none;
+    max-width: 100%;
+  }
+  .icon-one,
+  .want-in-on {
+    position: relative;
+    z-index: 1;
+  }
+  .want-in-on {
+    width: 591px;
+    line-height: 102%;
+    display: inline-block;
+    left: -220px;
+    padding: 155px 0 0 0;
+    color: var(--color-snow);
+  }
+  .icon-one {
+    width: 46px;
+    height: 38px;
+  }
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 var(--padding-11xs);
+  }
+  .e {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    min-width: 39px;
+    z-index: 1;
+  }
+  .link-icon-one,
+  .link-icon-two {
+    position: absolute;
+    top: 31.5px;
+    left: 11.5px;
+    width: 6.5px;
+    height: 8.5px;
+    z-index: 2;
+  }
+  .link-icon-two {
+    top: 16px;
+    left: 11px;
+    border-radius: var(--br-12xs);
+    width: 20px;
+    height: 18.5px;
+    z-index: 3;
+  }
+  .link-icon-four,
+  .link-icon-three {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    z-index: 2;
+  }
+  .link-icon-four {
+    top: 0.3px;
+    width: 2px;
+    height: 0.8px;
+    z-index: 3;
+  }
+  .more-links {
+    position: absolute;
+    top: 37px;
+    left: 35px;
+    width: 2px;
+    height: 1.1px;
+  }
+  .link-details {
+    height: 56px;
+    flex: 1;
+    position: relative;
+  }
+  .social-links,
+  .social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .social-links {
+    flex: 1;
+    align-items: flex-start;
+  }
+  .social-media {
+    width: 89px;
+    align-items: flex-end;
+    gap: var(--gap-9xs);
+    text-align: left;
+    font-size: var(--font-size-59xl);
+    font-family: var(--font-bropella);
+  }
+  .products {
+    align-self: stretch;
+    position: relative;
+    line-height: 25px;
+    display: inline-block;
+    min-width: 93px;
+    z-index: 1;
+  }
+  .products-wrapper {
+    width: 99px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-16xl) var(--padding-7xs) 0 0;
+    box-sizing: border-box;
+  }
+  .about-us {
+    align-self: stretch;
+    position: relative;
+    line-height: 25px;
+    display: inline-block;
+    min-width: 100px;
+    z-index: 1;
+  }
+  .about-us-wrapper {
+    width: 106px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-16xl) var(--padding-7xs) 0 0;
+    box-sizing: border-box;
+  }
+  .resources {
+    align-self: stretch;
+    position: relative;
+    line-height: 25px;
+    display: inline-block;
+    min-width: 108px;
+    z-index: 1;
+  }
+  .resources-wrapper {
+    width: 108px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-16xl) 0 0;
+    box-sizing: border-box;
+  }
+  .navigation-links {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: center;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-gautami);
+  }
+  .links{
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: center;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-gautami);
+  }
+  .want-in-on-stories-about-psych-parent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 85px;
+    min-width: 413px;
+    max-width: 100%;
+  }
+  .first-name {
+    flex: 1;
+    position: relative;
+    line-height: 26px;
+    z-index: 1;
+    left: -250px;
+    top: -195px;
+    background-color: transparent;
+    border: none;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-gautami);
+    border-bottom: 1px solid #FEFBF6;
+    outline: none;
+    color: #FEFBF6;
+  }
+
+  .field-labels {
+    width: 529px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-2xs);
+    box-sizing: border-box;
+  }
+  .field-icons {
+    align-self: stretch;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    z-index: 1;
+  }
+  .name-fields {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-11xs);
+  }
+  .last-name {
+    flex: 1;
+    position: relative;
+    line-height: 26px;
+    z-index: 1;
+    left: -250px;
+    top: -165px;
+    background-color: transparent;
+    border: none;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-gautami);
+    border-bottom: 1px solid #FEFBF6;
+    outline: none;
+    color: #FEFBF6;
+  }
+  .last-name-wrapper {
+    width: 529px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-2xs);
+    box-sizing: border-box;
+  }
+  .name-fields-child {
+    align-self: stretch;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    z-index: 1;
+  }
+  .name-fields1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-11xs);
+  }
+  .email {
+    flex: 1;
+    position: relative;
+    line-height: 26px;
+    z-index: 1;
+    left: -250px;
+    top: -135px;
+    background-color: transparent;
+    border: none;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-gautami);
+    border-bottom: 1px solid #FEFBF6;
+    outline: none;
+    color: #FEFBF6;
+  }
+  .email-wrapper {
+    width: 529px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-2xs);
+    box-sizing: border-box;
+  }
+  .email-icon {
+    align-self: stretch;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    z-index: 1;
+  }
+  .email-box {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-11xs);
+    flex-shrink: 0;
+    debug_commit: 1de1738;
+  }
+  .rectangle-div {
+    height: 54.2px;
+    width: 154.5px;
+    position: relative;
+    border-radius: var(--br-6xl);
+    background-color: var(--color-snow);
+    display: none;
+    left:150px;
+  }
+  .submit {
+    height: 30px;
+    position: relative;
+    left: 4px;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-gautami);
+    font-weight: 300;
+    color: #1A1A1C;
+    text-align: left;
+    display: inline-block;
+    min-width: 82px;
+    z-index: 1;
+  }
+  .email-field,
+  .group-div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .group-div {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-29xl) var(--padding-sm);
+  background-color:#FEFBF6;
+  flex: 1;
+  border-radius: var(--br-6xl);
+  justify-content: flex-start;
+  white-space: nowrap;
+  outline: none !important; 
+  position: relative;
+  top: -105px;
+  left: -250px;
+  }
+  .group-div:hover,
+  .submit:hover {
+      background-color: #ECB159; 
+      outline: none !important; 
+      color: #FEFBF6; 
+  }
+  .email-field {
+    align-self: stretch;
+    flex-direction: column;
+    padding: 0 0 var(--padding-29xl-8);
+    gap: var(--gap-21xl);
+  }
+  .explore {
+    flex: 1;
+    position: relative;
+    line-height: 25px;
+    display: inline-block;
+    min-width: 77px;
+    z-index: 1;
+  }
+  .exploration-link,
+  .form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .exploration-link {
+    flex-direction: row;
+    padding: 0 var(--padding-45xl);
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .form {
+    width: 414.5px;
+    flex-direction: column;
+    gap: var(--gap-20xl);
+    min-width: 414.5px;
+    max-width: 100%;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-gautami);
+  }
+  .footer-content,
+  .subscription {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  .subscription {
+    flex: 1;
+    align-items: flex-end;
+    justify-content: flex-start;
+  }
+  .footer-content {
+    width: 1079.5px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 var(--padding-8xs-5) 0 var(--padding-9xs);
+    box-sizing: border-box;
+  }
+  .footer-decoration-icon {
+    align-self: stretch;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    z-index: 1;
+  }
+  .logo2 {
+    width: 95px;
+    position: relative;
+    left: -1180px;
+    top: -60px;
+  }
+  .vector-23 {
+    width: 83%;
+    position: relative;
+    left: -125px;
+  }
+  .memiary1 {
+    position: relative;
+    line-height: 102%;
+    display: inline-block;
+    min-width: 110px;
+    z-index: 1;
+    font-size: 16px;
+    font-family: var(--font-gautami);
+    margin: 15px;
+    margin-top: 0px;
+    left: -115px;
+    margin-bottom: 35px;
+  }
+  .copyright,
+  .footer {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: var(--gap-lg);
+    text-align: right;
+    font-size: var(--font-size-base);
+    font-family: var(--font-gautami);
+  }
+  .footer {
+    border-radius: var(--br-6xl) var(--br-6xl) 0 0;
+    background-color: var(--color-gray);
+    padding: var(--padding-128xl) var(--padding-59xl) var(--padding-34xl);
+    box-sizing: border-box;
+    gap: var(--gap-16xl);
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-29xl);
+    color:#FEFBF6;
+    font-family: var(--font-bropella);
+  }
+  @media screen and (max-width: 1024px) {
+    .want-in-on {
+      left: 200px !important;
+    }
+    .first-name {
+      top: -170px;
+      left: -290px;
+    }
+    .last-name {
+      top: -140px;
+      left: -290px;
+    }
+    .email {
+      top: -110px;
+      left: -290px;
+    }
+    .group-div { 
+      top: -80px;
+      left: -120px;
+    }
+    .links {
+      top:90px;
+    }
+    .want-in-on-stories-about-psych-parent {
+      gap: 165px;
+    }
+    .frame-child5 {
+      bottom: 752.7px;
+    }
+    .explore {
+      left: 290px;
+    }
+    .resources {
+      left: 290px;
+    }
+    .about-us {
+      left: 290px;
+    }
+    .products {
+      left: 290px;
+    }
+    .logo2 {
+      left: -780px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .want-in-on {
+      left: 100px !important;
+    }
+    .first-name {
+      top: -310px;
+      left: 110px;
+    }
+    .last-name {
+      top: -280px;
+      left: 110px;
+    }
+    .email {
+      top: -250px;
+      left: 110px;
+    }
+    .group-div { 
+      top: -220px;
+      left: 290px;
+    }
+    .links {
+      top:90px;
+    }
+    .want-in-on-stories-about-psych-parent {
+      gap: 165px;
+    }
+    .frame-child5 {
+      bottom: 886.7px;
+        width: 200px;
+        transform: rotate(90deg);
+        left: -50px;
+    }
+    .explore {
+      left: -80px;
+    }
+    .resources {
+      left: 20px;
+    }
+    .about-us {
+      left: 120px;
+    }
+    .products {
+      left: 220px;
+    }
+    .logo2 {
+      left: -580px;
+      top: -200px;
+    }
+    .vector-23 {
+      left: -65px;
+      top: -150px;
+    }
+    .memiary1 {
+      top: -150px;
+      left: -65px;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    .want-in-on {
+      left: 50px !important;
+      width: 320px;
+      padding: 95px 0 0 0;
+    }
+    .first-name {
+      top: 0px;
+      left: 60px;
+    }
+    .field-labels{
+      width: 329px;
+    }
+    .last-name {
+      top: 30px;
+      left: 60px;
+    }
+    .last-name-wrapper{
+      width: 329px;
+    }
+    .email {
+      top: 60px;
+      left: 60px;
+    }
+    .email-wrapper{
+      width: 329px;
+    }
+    .group-div { 
+      top: 90px;
+      left: 130px;
+    }
+    .links {
+      top:190px;
+      padding-left: 250px;
+    }
+    .want-in-on-stories-about-psych-parent {
+      gap: 165px;
+    }
+    .frame-child5 {
+      bottom: 513.7px;
+      width: 200px;
+      left: -40px;
+      transform: rotate(90deg);
+    }
+    .explore {
+      left: -80px;
+    }
+    .resources {
+      left: 20px;
+    }
+    .about-us {
+      left: 120px;
+    }
+    .products {
+      left: 220px;
+    }
+    .logo2 {
+      left: -580px;
+      top: -200px;
+    }
+    .vector-23 {
+      left: -30px;
+      top: 20px;
+    }
+    .memiary1 {
+      top: 5px;
+      left: -25px;
+    }
+  }
+
+  @media screen and (max-width: 1050px) {
+    .form {
+      flex: 1;
+    }
+    .subscription {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .want-in-on {
+      font-size: var(--font-size-19xl);
+      line-height: 39px;
+    }
+    .e {
+      font-size: var(--font-size-43xl);
+    }
+    .navigation-links {
+      flex-wrap: wrap;
+    }
+    .want-in-on-stories-about-psych-parent {
+      gap: var(--gap-71xl);
+      min-width: 100%;
+    }
+    .form {
+      min-width: 100%;
+    }
+    .footer {
+      gap: var(--gap-mid);
+      padding: var(--padding-77xl) var(--padding-20xl) var(--padding-15xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .want-in-on {
+      font-size: var(--font-size-10xl);
+      line-height: 34px;
+    }
+    .e {
+      font-size: var(--font-size-28xl);
+    }
+    .about-us,
+    .products,
+    .resources {
+      font-size: var(--font-size-lgi);
+      line-height: 20px;
+    }
+    .want-in-on-stories-about-psych-parent {
+      gap: var(--gap-26xl);
+    }
+    .email,
+    .first-name,
+    .last-name {
+      line-height: 20px;
+    }
+    .email,
+    .first-name,
+    .last-name,
+    .submit {
+      font-size: var(--font-size-lgi);
+    }
+    .email-field {
+    }
+    .explore {
+      font-size: var(--font-size-lgi);
+      line-height: 20px;
+    }
+}

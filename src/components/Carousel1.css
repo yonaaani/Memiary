@@ -1,0 +1,21 @@
+.image-1-icon,
+.image-2-icon,
+.image-3-icon,
+.image-4-icon,
+.image-5-icon,
+.image-6-icon,
+.image-7-icon,
+.image-8-icon,
+.image-9-icon {
+  width: 343px;;
+}
+/* Add styles for the carousel container */
+.carousel-container {
+  width: 100%; /* Adjust as needed */
+  display: flex;
+  justify-content: center;
+  flex-direction: row !important;
+}
+.carousel {
+  flex-direction: row !important;
+}

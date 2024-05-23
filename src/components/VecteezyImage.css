@@ -3,6 +3,7 @@
   line-height: 29px;
   display: inline-block;
   min-width: 125px;
+  left: -70px;
 }
 .mind-full-wrapper {
   display: flex;
@@ -14,38 +15,39 @@
 .frame-inner,
 .frame-item {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 371.6px;
+  top: -20px;
+  left: 70px;
+  width: 471.6px;
   height: 334px;
 }
 .frame-inner {
-  top: 230px;
-  left: 285px;
-  width: 307px;
-  height: 248.6px;
+  top: 201px;
+  left: 372px;
+  width: 407px;
+  height: 278.6px;
   z-index: 1;
 }
 .frame-child1,
 .vector-icon {
   position: absolute;
-  top: 368.5px;
-  left: 578.4px;
-  width: 303.6px;
+  top: 373px;
+  left: 678.4px;
+  width: 403.6px;
   height: 239.1px;
   z-index: 2;
 }
 .frame-child1 {
-  top: 250.4px;
-  left: 873.2px;
+  position: absolute;
+  top: 236.1px;
+  left: 918px;
   border-radius: var(--br-264xl);
-  width: 347.3px;
-  height: 170px;
+  width: 600px;
+  height: 200px;
   z-index: 3;
 }
 .vector-parent {
   height: 607.6px;
-  width: 1220.5px;
+  width: 1320.5px;
   position: absolute;
   margin: 0 !important;
   right: -331.5px;
@@ -67,6 +69,7 @@
   display: inline-block;
   max-width: 100%;
   z-index: 4;
+  left: -50px;
 }
 .outside-box {
   flex: 1;
@@ -93,7 +96,7 @@
   gap: var(--gap-23xl);
 }
 .vecteezy-image {
-  width: 1113px;
+  width: 1413px;
   justify-content: center;
   padding: 0 var(--padding-xl) var(--padding-277xl);
   box-sizing: border-box;
@@ -118,11 +121,18 @@
   .mind-full {
     font-size: var(--font-size-3xl);
     line-height: 23px;
+    left: -270px;
   }
   .express-your-thoughts-container {
-    font-size: var(--font-size-7xl);
+    font-size: var(--font-size-25xl);
   }
   .frame-container {
     gap: var(--gap-2xl);
+  }
+  .express, .your-thoughts-digitally {
+    padding-left: 100px;
+  }
+  .vector-parent {
+    bottom: 82.6px;
   }
 }

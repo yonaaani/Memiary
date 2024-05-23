@@ -1,0 +1,330 @@
+.journal-cover{
+    height: 413px;
+    width: 277px;
+    display: flex;
+    justify-content: center;
+}
+.journal-cover-edit{
+    height: 413px;
+    width: 277px;
+    display: flex;
+    justify-content: center;
+    padding-top: 62px;
+    position: relative;
+}
+.journal{
+    align-items: center;
+    padding-top: 45px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.title{
+    align-content: center;
+    font-family: var(--font-bropella);
+    font-size: var(--font-size-13xl);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    position: relative;
+    align-items: center;
+}
+.title-input {
+    align-content: center;
+    font-family: var(--font-bropella);
+    font-size: var(--font-size-13xl);
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-gray);
+    color: var(--color-white);
+    align-items: center;
+    width: 200px;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.clear-button {
+    position: absolute;
+    right: 8px;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    top: -25px;
+  }
+  .clear-icon {
+    width: 30px;
+    height: 30px;
+    image-rendering: pixelated;
+    z-index: 12;
+  }
+  .clear-icon-flip {
+    width: 30px;
+    height: 30px;
+    image-rendering: pixelated;
+    z-index: 12;
+    margin-bottom: 290px;
+    margin-right: 45px;
+  }
+.edit{
+    width: 40px;
+    bottom: 405px;
+    z-index: 5;
+}
+.edit-button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    margin-left: 115px;
+    bottom: 405px;
+    position: relative;
+}
+.edit-button:focus,
+.edit-button:active {
+  outline: none;
+  box-shadow: none;
+}
+.pageCount{
+    font-size: 16px;
+    font-family: var(--font-gautami);
+    color: #C1BBBB;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.count-image {
+    width: 15px;
+    position: absolute;
+    top: 126px;
+    left: calc(50% - 50px);
+}
+.edit-coverPhoto{
+    background-color: var(--color-gray);
+    width: 1440px;
+    height: 150px;
+    padding-top: 15px;
+    z-index: 25;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: relative;
+    justify-content: center;
+}
+.customize-text {
+    font-size: 20px;
+    font-family: var(--font-gautami);
+    color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    font-weight: 600;
+}
+.change-cover{
+    z-index: 5;
+}
+.actions-list{
+    font-size: 20px;
+    font-family: var(--font-gautami);
+    color: var(--color-white);
+    display: flex;
+    justify-content: left;
+    margin-top: -5px;
+    list-style-type: none; 
+}
+.change-cover-image{
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+    margin-top: 2px;
+}
+.clear-button-coverPhoto {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 12;
+}
+.input-container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.title-input {
+    padding-right: 40px; /* Забезпечення простору для кнопки Clear */
+  }
+  .clear-button-title {
+    position: absolute;
+    top: 53.5%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 12;
+  }
+  
+  .demoPage{
+    background-color: var(--color-white);
+    border-radius: 10px;
+    border-color: #C1BBBB;
+    border-width: 1px;
+    border-style: solid;
+  }
+  .page-cover{
+    border-radius: 10px;
+  }
+
+  .page-content {
+    overflow-x: hidden; 
+    overflow-y: hidden;
+    position: relative;
+  }
+  
+  .cover-image-flip {
+    width: 442px; 
+    height: 602px; 
+    clip-path: inset(0 0 15% 0);
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 70% 100%, 30% 100%, 0 80%) circle(50% at 100% 100%);
+  }
+  .demo-book{
+    border: 1px solid #eee;
+  }
+  .app-flip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+  }
+  .controls-flip {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    top: -110px;
+  }
+
+  .add-thought-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-white); 
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    z-index: 1000; 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: 0.5px solid;
+    border-color: #C1BBBB;
+  }
+  
+  .add-thought-container {
+    padding: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .thought-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 15;
+    display: flex;
+    flex-direction: column;
+    
+}
+.thought-container input{
+  font-family: var(--font-bropella);
+  font-size: 32px;
+  border: none; /* Remove border */
+  outline: none; /* Remove outline on focus */
+  box-shadow: none; /* Remove box-shadow on focus */
+  color: var(--color-gray);
+}
+.thought-container textarea {
+  font-family: var(--font-gautami);
+  font-size: 20px;
+  border: none; /* Remove border */
+  outline: none; /* Remove outline on focus */
+  box-shadow: none; /* Remove box-shadow on focus */
+  color: var(--color-gray);
+  height: 390px;
+}
+.thought-data { 
+  font-family: var(--font-gautami);
+  font-size: 16px;
+  color: var(--color-gray);
+  width: 98%;
+  padding-left: 10px;
+}
+.thought-container input,
+.thought-container textarea {
+  width: 98%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.thought-container button {
+  padding-top: 10px;
+  border: 0.1px solid;
+  border-radius: 25px;
+  border-color: #C1BBBB;
+  border-width: 2px;
+  background-color: var(--color-snow);
+  color: var(--color-gray);
+  font-size: 16px;
+  cursor: pointer;
+  font-family: var(--font-gautami);
+  width: 120px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thought-container button:hover {
+  background-color: #ECB159;
+  color: var(--color-white);
+}
+.controls-thoughts {
+  display: flex; /* Встановлюємо flex контейнер */
+  justify-content: center; /* Вирівнюємо по центру по горизонталі */
+  gap: 15px; /* Додаємо проміжок між елементами */
+}
+
+.clear-black-button{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  padding: 20px;
+  padding-right: 25px;
+}
+
+.flipbook-wrapper {
+  position: relative;
+}
+
+.clear-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

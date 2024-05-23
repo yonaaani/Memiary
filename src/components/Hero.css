@@ -1,0 +1,119 @@
+.flow-of-your,
+.practice-mindful,
+.with-memairy {
+  margin: 0;
+}
+.practice-mindful-flow-container {
+  margin: 0;
+  width: 423px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.graphic-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-11xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.mindful {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 29px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 98px;
+}
+.description,
+.graphic-parent {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.description {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-100xl);
+}
+.graphic-parent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-12xs-2);
+}
+.body,
+.graphic-parent,
+.hero {
+  display: flex;
+  max-width: 100%;
+}
+.body {
+  align-self: stretch;
+  height: 460px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xs) 0 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  font-family: var(--font-give-you-glory);
+}
+.hero {
+  width: 583px;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-32xl);
+  min-width: 583px;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-bropella);
+}
+@media screen and (max-width: 1125px) {
+  .hero {
+    flex: 1;
+    min-width: 483px;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .practice-mindful-flow-container {
+    font-size: var(--font-size-7xl);
+  }
+  .body {
+    height: 360px;
+    width: 480px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .hero {
+    gap: var(--gap-6xl);
+    min-width: 303px;
+    align-self: auto;
+  }
+  .body {
+    height: 260px;
+    width: 350px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .practice-mindful-flow-container {
+    font-size: var(--font-size-lgi);
+  }
+  .mindful {
+    font-size: var(--font-size-3xl);
+    line-height: 23px;
+  }
+  .hero {
+    display: none !important;
+  } 
+}

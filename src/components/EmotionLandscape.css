@@ -42,12 +42,12 @@
   max-width: 100%;
 }
 .frame-child5 {
-  height: 184.5px;
-  width: 227.2px;
+  height: 283.5px;
+  width: 267.2px;
   position: absolute;
   margin: 0 !important;
-  right: -95.6px;
-  bottom: -112.7px;
+  right: -20.6px;
+  bottom: -2490px;
   z-index: 1;
 }
 .emotion-landscape,
@@ -86,6 +86,7 @@
   .vecteezy-tablet-with-free-spac-parent {
     flex-wrap: wrap;
     gap: var(--gap-14xl);
+    width: 950px;
   }
 }
 @media screen and (max-width: 750px) {
@@ -98,6 +99,13 @@
   }
   .vecteezy-tablet-with-free-spac-parent {
     gap: var(--gap-base);
+    width: 450px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .vecteezy-tablet-with-free-spac-parent {
+    gap: var(--gap-base);
+    width: 650px !important;
   }
 }
 @media screen and (max-width: 450px) {
@@ -108,4 +116,21 @@
     font-size: var(--font-size-lgi);
     line-height: 20px;
   }
+  .vecteezy-tablet-with-free-spac-icon{
+    height: 0px;
+  }
+  .emotional-landscape {
+    padding-right: 160px;
+  }
+}
+
+.your-component {
+  opacity: 0.99; /* Спочатку робимо компонент невидимим */
+  transform: translateY(15%); /* Зсуваємо його вниз на 100% */
+  transition: opacity 1.2s ease, transform 1.2s ease; /* Додаємо плавну анімацію */
+}
+
+.your-component.visible {
+  opacity: 1; /* Зробити компонент видимим */
+  transform: translateY(0); /* Зсувати його до його правильного положення */
 }

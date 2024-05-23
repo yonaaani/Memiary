@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Give+You+Glory:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vrinda:wght@400&display=swap");
 @font-face {
   font-family: "Bropella";
   src: url("/public/Bropella.ttf");
@@ -44,15 +45,51 @@ body {
   --font-size-39xl: 58px;
   --font-size-16xl: 35px;
   --font-size-27xl: 46px;
+  --font-size-base: 16px;
 
   /* Colors */
-  --color-gray: #1a1a1c;
+  --color-gray: #1A1A1C;
   --color-black: #000;
   --color-white: #fff;
   --color-dimgray: #4d4d4f;
   --color-lavenderblush: #ffeeff;
+  --color-snow: #FEFBF6;
+  --color-silver: #c1bbbb;
 
   /* Gaps */
+  --gap-base: 16px;
+  --gap-47xl: 66px;
+  --gap-14xl: 33px;
+  --gap-5xl: 24px;
+  --gap-16xl-5: 35.5px;
+  --gap-lg: 18px;
+  --gap-211xl-8: 330.8px;
+  --gap-10xl: 29px;
+  --gap-39xl: 58px;
+  --gap-96xl: 115px;
+  --gap-7xs: 6px;
+  --gap-10xs: 3px;
+  --gap-11xl: 30px;
+  --gap-23xl: 42px;
+  --gap-2xl: 21px;
+  --gap-87xl: 106px;
+  --gap-7xl: 26px;
+  --gap-34xl: 53px;
+  --gap-xl: 1020px;
+  --gap-mid: 17px;
+
+  --gap-184xl: 273px;
+  --gap-32xl: 51px;
+  --gap-6xl: 25px;
+  --gap-82xl: 101px;
+  --gap-14xl-5: 33.5px;
+  --gap-mid: 17px;
+  --gap-sm: 14px;
+  --gap-4xs-5: 8.5px;
+  --gap-4xs: 9px;
+  --gap-6xs: 7px;
+  --gap-xs: 20px;
+  --gap-12xs-2: 0.2px;
   --gap-base: 16px;
   --gap-47xl: 66px;
   --gap-14xl: 33px;
@@ -71,8 +108,8 @@ body {
   --gap-87xl: 106px;
   --gap-7xl: 26px;
   --gap-34xl: 53px;
-  --gap-xl: 20px;
-  --gap-mid: 17px;
+
+
 
   /* Paddings */
   --padding-18xl: 37px;
@@ -86,7 +123,7 @@ body {
   --padding-40xl: 59px;
   --padding-mini-3: 14.3px;
   --padding-340xl: 359px;
-  --padding-339xl: 358px;
+  --padding-339xl: 448px;
   --padding-70xl: 89px;
   --padding-160xl: 179px;
   --padding-41xl: 60px;
@@ -110,9 +147,85 @@ body {
   --padding-7xl: 26px;
   --padding-6xs: 7px;
 
+  --padding-47xl: 66px;
+  --padding-18xl: 37px;
+  --padding-5xl: 24px;
+  --padding-xl: 20px;
+  --padding-2xs: 11px;
+  --padding-2xl: 21px;
+  --padding-xs: 12px;
+  --padding-3xl: 22px;
+  --padding-6xs: 7px;
+  --padding-31xl: 50px;
+  --padding-32xl: 51px;
+  --padding-smi: 13px;
+  --padding-30xl: 49px;
+  --padding-37xl: 56px;
+  --padding-100xl: 119px;
+  --padding-137xl: 156px;
+  --padding-79xl: 98px;
+  --padding-10xl: 29px;
+  --padding-40xl: 59px;
+  --padding-mini-3: 14.3px;
+  --padding-340xl: 359px;
+  --padding-70xl: 89px;
+  --padding-160xl: 179px;
+  --padding-41xl: 60px;
+  --padding-130xl: 149px;
+  --padding-184xl: 203px;
+  --padding-93xl-4: 112.4px;
+  --padding-54xl: 73px;
+  --padding-12xs: 1px;
+  --padding-lg: 18px;
+  --padding-lg-1: 18.1px;
+  --padding-48xl: 67px;
+  --padding-277xl: 296px;
+  --padding-173xl: 192px;
+  --padding-296xl: 315px;
+  --padding-98xl: 117px;
+  --padding-14xl: 33px;
+  --padding-mini: 15px;
+  --padding-29xl: 48px;
+  --padding-sm: 14px;
+  --padding-7xl: 26px;
+
+
   /* Border radiuses */
   --br-6xl: 25px;
   --br-581xl: 600px;
   --br-11xl: 30px;
   --br-264xl: 283px;
+  --br-mini: 15px;
+}
+
+@media (max-width: 1620px) {
+  :root {
+    --gap-xl: 1020px; /* Зменшуємо розмір для великих екранів */
+  }
+}
+
+@media (max-width: 1024px) {
+  :root {
+    --gap-xl: 600px; /* Зменшуємо розмір для великих екранів */
+    --gap-34xl: 103px;
+    --gap-96xl: 400px;
+    --gap-82xl: 81px;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --gap-xl: 334px; /* Зменшуємо розмір для середніх екранів */
+    --gap-34xl: 153px;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --gap-xl: 30px; /* Зменшуємо розмір для малих екранів */
+    --gap-34xl: 3px;
+    --padding-296xl: 5px;
+    --padding-137xl: 76px;
+    --padding-30xl: 170px;
+  }
 }

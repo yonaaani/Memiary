@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.flipbook-container{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+.book{
+   position: relative;
+   height: 352px; 
+   width: 246px;
+   transform-style: preserve-3d;
+   transform: perspective(2000px); 
+   margin-top: 295px;
+   margin-right: 30px;
+   border-top-right-radius: 25px;
+   border-bottom-right-radius: 25px;
+}
+.book:hover{
+    z-index: 1;
+    transform: perspective(2000px);
+    box-shadow: inset 10px 0 50px #C1BBBB;
+}
+.book .cover-flipbook{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    transform-origin: left;
+    z-index: 1;
+    transition: 1s;
+    overflow: visible;
+}
+.book:hover .cover-flipbook{
+    transform: rotateY(-135deg);
+}
+.book .cover-flipbook img{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 120%; 
+    height: 117%; 
+    object-fit: cover;
+}
+.book .details {
+    position: absolute;
+    top:0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 20px;
+    max-height: 330px; 
+    overflow-y: auto;
+    max-width: 320px;
+    direction: ltr;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+.thought-item {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    justify-content: flex-start;
+    background-color: var(--color-white);
+    margin-bottom: 10px; 
+    border: 0.5px solid #C1BBBB; 
+    padding: 10px; 
+    border-radius: 10px;
+    width: 160px;
+    text-align: left;
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+  .thought-item.selected {
+    border-color: #ECB159; 
+  }
+  .thought-image {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    padding-top: 6px;
+  }
+  .thought-content {
+    text-align: left;
+    padding-left: 10px;
+    font-family: var(--font-gautami);
+    font-size: 16px;
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+  
+  .thought-title {
+    font-weight: bold; 
+    font-family: var(--font-bropella);
+    margin: 0;
+    padding-top: 5px;
+    padding-left: 35px;
+    font-size: 22px;
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+
+  .thought-list {
+    list-style-type: none; 
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .thought-date {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 0.8em;
+    color: #888;
+  }
+
+.book .details::-webkit-scrollbar-thumb {
+    background-color: var(--color-snow); 
+}
+
+.book .details::-webkit-scrollbar-track {
+    background-color: var(--color-snow); 
+}
